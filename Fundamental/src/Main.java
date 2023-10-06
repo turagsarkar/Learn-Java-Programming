@@ -27,7 +27,22 @@ public class Main {
         }
         else if (x==6){
             Check_Alphabets.check();
-
+        }
+        else if (x==7) {
+            QuadraticEquation.equation();
+        }
+        else if (x==8){
+            ElectricityBill.electric();
+        }
+        else if(x==9){
+            CheckTriangle.triangle();
+        }
+        else if (x==10){
+            Calculator.calculator();
+        }
+        else
+        {
+            System.out.println("WRONG CALL");
         }
     }
 }
