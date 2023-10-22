@@ -15,19 +15,18 @@ public class FindMaxIndex {
             }
             System.out.println();
         }
-        int maxIndexR = -1;
-        int maxIndexC=-1;
-        int max = num[0][0];
-        for (int i = 0; i < num.length; i++) {
-            for (int j = 0; j < num[0].length; j++) {
-                if(max<num[i+1][j+1]){
-                    max = num[i+1][j+1];
-                    maxIndexR = i;
-                    maxIndexC = j;
-                }
+        int maxSum = Integer.MIN_VALUE;
+        int rowInd = 0 ;
+        for (int i = 0; i < 3; i++) {
+            int sum = 0 ;
+            for (int j = 0; j < 3; j++) {
+                sum += num[i][j];
+            }
+            if (sum>maxSum){
+                maxSum=sum;
+                rowInd = i ;
             }
         }
-        System.out.println("Largest element: " + max);
-        System.out.println("Smallest index of the largest element: [" + maxIndexR + ", " + maxIndexC + "]");
+        System.out.println("Row number "+rowInd+" has total sum "+maxSum);
     }
 }
