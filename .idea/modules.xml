@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fundamental/Fundamental.iml" filepath="$PROJECT_DIR$/Fundamental/Fundamental.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learn-Java-Programming.iml" filepath="$PROJECT_DIR$/.idea/Learn-Java-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem Solving/Problem Solving.iml" filepath="$PROJECT_DIR$/Problem Solving/Problem Solving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Single Dimensional Arrays/Single Dimensional Arrays.iml" filepath="$PROJECT_DIR$/Single Dimensional Arrays/Single Dimensional Arrays.iml" />
+    </modules>
+  </component>
+</project>
